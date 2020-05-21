@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MegaSena", "SorteioMegaSena\MegaSena.csproj", "{6C2AB2ED-CC75-4776-BBD0-AE443A99DF43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{797AD298-FFCF-4CBD-A1A4-3A624302A73B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensions", "Extensions\Extensions.csproj", "{35F724E6-01A4-4237-AF46-33DCBEEFD809}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C2AB2ED-CC75-4776-BBD0-AE443A99DF43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C2AB2ED-CC75-4776-BBD0-AE443A99DF43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C2AB2ED-CC75-4776-BBD0-AE443A99DF43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C2AB2ED-CC75-4776-BBD0-AE443A99DF43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{797AD298-FFCF-4CBD-A1A4-3A624302A73B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{797AD298-FFCF-4CBD-A1A4-3A624302A73B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{797AD298-FFCF-4CBD-A1A4-3A624302A73B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{797AD298-FFCF-4CBD-A1A4-3A624302A73B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35F724E6-01A4-4237-AF46-33DCBEEFD809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35F724E6-01A4-4237-AF46-33DCBEEFD809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35F724E6-01A4-4237-AF46-33DCBEEFD809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35F724E6-01A4-4237-AF46-33DCBEEFD809}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C16FCB91-70C5-43E4-8CAE-BCC51DC63A60}
+	EndGlobalSection
+EndGlobal
