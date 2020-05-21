@@ -7,5 +7,6 @@ namespace Extensions.Contracts
     public interface IConvertExtensions
     {
         public List<int> IntToList(int number);
+        public List<int> StringToList(string text);
     }
 }

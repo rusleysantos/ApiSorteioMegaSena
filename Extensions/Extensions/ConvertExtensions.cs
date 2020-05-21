@@ -20,5 +20,18 @@ namespace Extensions.Extensions
 
             return digits;
         }
+
+        public List<int> StringToList(string text)
+        {
+
+            List<int> listNumbers = new List<int>();
+
+            foreach (var chars in text.Trim().Replace("\n","").Split(";"))
+            {
+                listNumbers.Add(Convert.ToInt32(chars));
+            }
+
+            return listNumbers;
+        }
     }
 }

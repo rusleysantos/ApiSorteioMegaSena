@@ -1,0 +1,11 @@
+C:\Users\rusle\source\repos\SorteioMegaSena\Services\bin\Debug\netcoreapp3.1\Services.deps.json
+C:\Users\rusle\source\repos\SorteioMegaSena\Services\bin\Debug\netcoreapp3.1\Services.dll
+C:\Users\rusle\source\repos\SorteioMegaSena\Services\bin\Debug\netcoreapp3.1\Services.pdb
+C:\Users\rusle\source\repos\SorteioMegaSena\Services\obj\Debug\netcoreapp3.1\Services.AssemblyInfoInputs.cache
+C:\Users\rusle\source\repos\SorteioMegaSena\Services\obj\Debug\netcoreapp3.1\Services.AssemblyInfo.cs
+C:\Users\rusle\source\repos\SorteioMegaSena\Services\obj\Debug\netcoreapp3.1\Services.dll
+C:\Users\rusle\source\repos\SorteioMegaSena\Services\obj\Debug\netcoreapp3.1\Services.pdb
+C:\Users\rusle\source\repos\SorteioMegaSena\Services\bin\Debug\netcoreapp3.1\Extensions.dll
+C:\Users\rusle\source\repos\SorteioMegaSena\Services\bin\Debug\netcoreapp3.1\Extensions.pdb
+C:\Users\rusle\source\repos\SorteioMegaSena\Services\obj\Debug\netcoreapp3.1\Services.csprojAssemblyReference.cache
+C:\Users\rusle\source\repos\SorteioMegaSena\Services\obj\Debug\netcoreapp3.1\Services.csproj.CopyComplete

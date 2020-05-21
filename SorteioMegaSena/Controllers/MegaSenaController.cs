@@ -26,42 +26,31 @@ namespace SorteioMegaSena.Controllers
         /// </summary>
         /// <param name="data">Parametros do sorteio</param>
         /// <returns></returns>
-        [HttpGet("[action]")]
+        [HttpPost("[action]")]
         public IActionResult CheckResult([FromBody] RaffleDataUser data)
         {
-            if (data.QuantityNumbers == data.Numbers.Count())
+
+            List<int> numbersRaffling = Service.RafflingNumber(data.QuantityNumbers);
+
+            try
             {
-                List<int> numbersRaffling = Service.RafflingNumber(data.QuantityNumbers);
+                Raffle raffle = new Raffle(Service.CheckResult(Extension.StringToList(data.Numbers),
+                                            numbersRaffling),
+                                            numbersRaffling,
+                                            Extension.StringToList(data.Numbers),
+                                            Extension);
 
-                try
-                {
-                    Raffle raffle = new Raffle(Service.CheckResult(data.Numbers, numbersRaffling), numbersRaffling, data.Numbers, Extension);
-
-                    return Ok(new ReturnMessage
-                    {
-                        Data = raffle,
-                        MessageDev = "",
-                        MessageUser = "Sorteio Realizado com sucesso!",
-                        Status = "Success"
-                    });
-                }
-                catch (Exception e)
-                {
-                    return BadRequest(new ReturnMessage
-                    {
-                        Status = "Error",
-                        MessageDev = String.Format("{0} - {1}", e.Message, e.StackTrace)
-                    });
-                }
+                return Ok(raffle);
             }
-            else
+            catch (Exception e)
             {
                 return BadRequest(new ReturnMessage
                 {
                     Status = "Error",
-                    MessageDev = "Quantidade de números para sorteio diferente de números digitados pelo usuário",
+                    MessageDev = String.Format("{0} - {1}", e.Message, e.StackTrace)
                 });
             }
+
         }
 
         /// <summary>

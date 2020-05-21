@@ -1,0 +1,8 @@
+C:\Users\rusle\source\repos\SorteioMegaSena\Extensions\bin\Debug\netcoreapp3.1\Extensions.deps.json
+C:\Users\rusle\source\repos\SorteioMegaSena\Extensions\bin\Debug\netcoreapp3.1\Extensions.dll
+C:\Users\rusle\source\repos\SorteioMegaSena\Extensions\bin\Debug\netcoreapp3.1\Extensions.pdb
+C:\Users\rusle\source\repos\SorteioMegaSena\Extensions\obj\Debug\netcoreapp3.1\Extensions.AssemblyInfoInputs.cache
+C:\Users\rusle\source\repos\SorteioMegaSena\Extensions\obj\Debug\netcoreapp3.1\Extensions.AssemblyInfo.cs
+C:\Users\rusle\source\repos\SorteioMegaSena\Extensions\obj\Debug\netcoreapp3.1\Extensions.dll
+C:\Users\rusle\source\repos\SorteioMegaSena\Extensions\obj\Debug\netcoreapp3.1\Extensions.pdb
+C:\Users\rusle\source\repos\SorteioMegaSena\Extensions\obj\Debug\netcoreapp3.1\Extensions.csprojAssemblyReference.cache

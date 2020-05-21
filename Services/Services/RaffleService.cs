@@ -41,7 +41,7 @@ namespace Services.Services
         /// Sorteio aleatório de numeros
         /// </summary>
         /// <param name="quantityNumbers">Quantidade de numeros que serão sorteados</param>
-        /// <returns></returns>
+        /// <returns>Quantidade de numeros</returns>
         public List<int> RafflingNumber(int quantityNumbers)
         {
             Random random = new Random();

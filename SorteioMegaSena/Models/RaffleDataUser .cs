@@ -8,7 +8,7 @@ namespace MegaSena.Models
     public class RaffleDataUser
     {
         public int QuantityNumbers { get; set; }
-        public List<int> Numbers { get; set; }
+        public string Numbers { get; set; }
     }
 
 }
